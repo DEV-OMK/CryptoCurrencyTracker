@@ -1,0 +1,76 @@
+/* Write your CSS code here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.crypto-item-container {
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.crypto-logo-currency-container {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}
+
+.currency-logo {
+  width: 15px;
+  height: 15px;
+  margin-right: 6px;
+}
+
+.crypto-item-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .crypto-item-text {
+    font-size: 14px;
+  }
+}
+
+.col-1 {
+  width: 30%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .col-1 {
+    width: 60%;
+    padding-left: 50px;
+  }
+}
+
+.col-2 {
+  width: 35%;
+}
+
+@media screen and (min-width: 768px) {
+  .col-2 {
+    width: 25%;
+  }
+}
+
+.col-3 {
+  width: 35%;
+}
+
+@media screen and (min-width: 768px) {
+  .col-3 {
+    width: 25%;
+  }
+}
